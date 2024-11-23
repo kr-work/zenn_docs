@@ -1,0 +1,8 @@
+{
+	"name": "Zenn docs",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+    "postCreateCommand": "git submodule update --init --recursive",
+	"postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+}
