@@ -12,9 +12,13 @@ published: false
 
 ## 環境構築
 ### Rustのインストール
-最初にRustのインストールを行います。
+最初にRustのインストールを行います。下準備として、まず下記のコマンドを入力します。
 ```shell
 sudo apt install git python3 python3-pip gcc build-essential curl pkg-config libudev-dev libtinfo5
+```
+その後、Rustを実際にインストールします。
+```shell
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 ### ツールチェイン等のインストール
