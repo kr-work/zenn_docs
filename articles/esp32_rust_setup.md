@@ -23,7 +23,7 @@ sudo apt install git python3 python3-pip gcc build-essential curl pkg-config lib
 pip install esptool
 cargo install ldproxy
 cargo install espup
-cargp install espflash
+cargo install espflash
 cargo install cargo-binstall
 cargo binstall cargo-espflash
 cargo install cargo-generate
