@@ -15,7 +15,7 @@ published: false
 ## FreeRTOS
 今回、デュアルコアでプログラムを作成するにあたって、ESP32のFreeRTOSを使います。
 
-FreeRTOSについては、[Lang-ship](https://lang-ship.com/blog/work/esp32-freertos-l01-about/)などに詳しく記載されているので、気になった方はそちらを参照してください。
+FreeRTOSについては、[Lang-ship](https://lang-ship.com/blog/work/esp32-freertos-l01-about/)さんなどに詳しく記載されているので、気になった方はそちらを参照してください。
 
 ## タスク作成
 デュアルコアを扱うには、それぞれにタスクを渡して実行する形をとります。タスクの作成には、C言語から関数を呼び出して使用します。
