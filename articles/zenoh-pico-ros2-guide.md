@@ -2,7 +2,7 @@
 title: "Zenoh のテンプレートを作った"
 emoji: "🐉"
 type: "tech"
-topics: ["zenoh", "ros2", "esp32", "python", "rust"]
+topics: ["zenoh", "ros2", "esp32", "python", "Rust"]
 published: false
 ---
 
