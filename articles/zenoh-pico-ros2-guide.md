@@ -1,5 +1,5 @@
 ---
-title: "Zenoh のテンプレートを作った:ルーターから ESP32、ROS 2 連携まで clone してすぐ試せる"
+title: "Zenoh のテンプレートを作った"
 emoji: "🐉"
 type: "tech"
 topics: ["zenoh", "ros2", "esp32", "platformio", "python"]
